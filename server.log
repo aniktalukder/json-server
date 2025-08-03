@@ -1,0 +1,5 @@
+
+> start-auth
+> node server.js
+
+Run Auth API Server
