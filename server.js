@@ -1,12 +1,12 @@
-/* const fs = require('fs')
+const fs = require('fs')
 const bodyParser = require('body-parser')
 const jsonServer = require('json-server')
-const jwt = require('jsonwebtoken') */
+const jwt = require('jsonwebtoken')
 
-import fs from "fs";
+/* import fs from "fs";
 import bodyParser from "body-parser";
 import jsonServer from "json-server";
-import jwt from "jsonwebtoken";
+import jwt from "jsonwebtoken"; */
 
 const server = jsonServer.create()
 const router = jsonServer.router('./db.json')

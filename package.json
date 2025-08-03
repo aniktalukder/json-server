@@ -9,7 +9,7 @@
     "jsonwebtoken": "^9.0.2"
   },
   "scripts": {
-    "start": "node server-no-auth.js",
+    "start": "node server.js",
     "start-auth": "node server.js"
   }
 }
